@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الاعدادات</title>
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="/css/framework.css" />
+    <link rel="stylesheet" href="/css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600&family=Noto+Kufi+Arabic:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative text-c mt-0">أبووشطان</h3>
+        <ul>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>لوحة التحكم</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex align-center fs-14 c-black rad-6 p-10"
+              href="setting.html"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>الإعدادات</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="profile.html"
+            >
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>الملف الشخصي</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>المشاريع</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-regular fa-graduation-cap fa-fw"></i>
+              <span>الدورات</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>الأصدقاء</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>الملفات</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>الأشتراك</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full">
+        <!-- Head  -->
+        <div class="head bg-white p-15 betweem-flex">
+          <div class="search p-relative">
+            <input class="p-10" type="search" placeholder="البحث" />
+          </div>
+          <div class="icons d-flex aling-center">
+            <span class="notification p-relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="imgs/avatar.png" alt="" />
+          </div>
+        </div>
+        <!-- Head  -->
+        <h1 class="p-relative">الاعدادات</h1>
+        <div class="setting-page m-20 d-grid gap-20">
+            <!-- box-setting -->
+          <div class="p-20 bg-white rad-10">
+            <h2 class="mt-0 mb-10">تحكم بالموقع</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">
+              لوحة تحكم بالموقع اذا يوجد أعمال صيانة للموقع
+            </p>
+            <div class="mb-15 betweem-flex">
+              <div>
+                <span>تحكم بالموقع</span>
+                <p class="c-grey mt-5 mb-0 fs-13">
+                  أفتح/ أغلق الموقع مع كتابة السبب
+                </p>
+              </div>
+              <div>
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" checked />
+                  <div class="toggle-switch"></div>
+                </label>
+              </div>
+            </div>
+            <textarea
+              class="close-message p-10 rad-6 d-block w-full"
+              placeholder="سبب إغلاق الموقع"
+            ></textarea>
+          </div>
+          <!-- box-setting -->
+          <div class="p-20 bg-white rad-10">
+            <h2 class="mt-0 mb-10">معلومات عامة</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">معلومات عامة عن حسابك</p>
+            <div class="mb-15">
+              <label class="fs-14 c-grey d-block mb-5" for="">الاسم الأول</label>
+              <input type="text" class="border-ccc b-none p-10 rad-10 d-block w-full" id="first" placeholder="الاسم الاول">
+            </div>
+            <div class="mb-15">
+              <label class="fs-14 c-grey d-block mb-5" for="">الاسم الاخير</label>
+              <input type="text" class="border-ccc b-none p-10 rad-10 d-block w-full" id="first" placeholder="الاسم الاخير">
+            </div>
+            <div class="">
+              <label class=" fs-14 c-grey d-block mb-5" for="">البريد</label>
+              <input type="email" id="email" value="fa@10.com" disabled class="email border-ccc b-none p-10 rad-6  w-full ml-10" id="first" placeholder="الاسم الاول">
+              <a class="c-red" href="#">تعديل</a>
+            </div>
+          </div>
+            <!-- box-setting -->
+            <div class="sec-box p-20 bg-white rad-10">
+              <h2 class="mt-0 mb-10">معلومات الحماية</h2>
+              <p class="mt-0 mb-20 c-grey fs-15">
+               معلومات الحماية بالحساب الخاص بك
+              </p>
+              <div class="sec-box mb-15 betweem-flex">
+                <div>
+                  <span>كلمة المرور</span>
+                  <p class="c-grey mt-5 mb-0 fs-13">آخر تعديل بتاريخ 20/8/2022</p>
+                </div>
+                <a class="button bg-blue c-white btn-shape" href="#">تعديل</a>
+              </div>
+
+              <div class="sec-box mb-15 betweem-flex">
+                <div>
+                  <span>توثيق بخطوتين</span>
+                  <p class="c-grey mt-5 mb-0 fs-13">نفعيل/ الغاء التوثيق</p>
+                </div>
+                
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+               
+              </div>
+
+              <div class="sec-box  betweem-flex">
+                <div>
+                  <span>الجهاز</span>
+                  <p class="c-grey mt-5 mb-0 fs-13">آخر جهاز تم الدخول به</p>
+                </div>
+                <a class="button c-black bg-eee  btn-shape" href="#">الاجهزة</a>
+              </div>
+             
+        </div>
+          <!-- box-setting -->
+          <!-- box-setting -->
+          <div class="socil-boxes p-20 bg-white rad-10">
+            <h2 class="mt-0 mb-10">وسائل التواصل</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">
+             معلومات وسائل التواصل الاجتماعي
+            </p>
+            <div class="d-flex aling-center mb-15">
+              <i class="fa-brands fa-twitter center-flex c-grey twitter"></i>
+              <input class="w-full" type="text" placeholder="twitter">
+            </div>
+            <div class="d-flex aling-center mb-15">
+              <i class="fa-brands fa-facebook center-flex c-grey facebook"></i>
+              <input class="w-full" type="text" placeholder="facebook">
+            </div>
+            <div class="d-flex aling-center mb-15">
+              <i class="fa-brands fa-youtube center-flex c-grey youtube"></i>
+              <input class="w-full" type="text" placeholder="youtube">
+            </div>
+            <div class="d-flex aling-center mb-15">
+              <i class="linkedin fa-brands fa-linkedin center-flex c-grey "></i>
+              <input class="w-full" type="text" placeholder="linkedin">
+            </div>
+            </div>
+          <!-- box-setting -->
+          <!-- box-setting -->
+          <div class="widgets-control p-20 bg-white rad-10">
+            <h2 class="mt-0 mb-10">الاهداف والطموحات</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">
+             اظهار / اخفاء الاهداف
+            </p>
+            <div class="control d-flex aling-center mb-15">
+              <input type="checkbox" id="one" checked>
+              <label for="one">مشروع سريع</label>
+            </div>
+            <div class="control d-flex aling-center mb-15">
+              <input type="checkbox" id="two" checked>
+              <label for="two">الهدف السنوي</label>
+            </div>
+            <div class="control d-flex aling-center mb-15">
+              <input type="checkbox" id="three">
+              <label for="three">اخر الاخبار</label>
+            </div>
+            <div class="control d-flex aling-center mb-15">
+              <input type="checkbox" id="four" checked>
+              <label for="four">اخر التذاكر</label>
+            </div>
+            <div class="control d-flex aling-center mb-15">
+              <input type="checkbox" id="five">
+              <label for="five"> اعلى عناصر بحث</label>
+            </div>
+            <div class="control d-flex aling-center mb-15">
+              <input type="checkbox" id="six" checked>
+              <label for="six">احصائية التذاكر</label>
+            </div>
+            </div>
+          <!-- box-setting -->
+          <!-- box-setting -->
+          <div class="backup-control p-20 bg-white rad-10">
+            <h2 class="mt-0 mb-10">تحكم بالنسخة الاحتياطية</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">
+             التحكم بتاريخ وموقع النسخة الاحتياطية
+            </p>
+            <div class="date d-flex aling-center mb-15">
+              <input type="radio" name="time" id="daily" >
+              <label for="daily">يومي</label>
+            </div>
+            <div class="date d-flex aling-center mb-15">
+              <input type="radio" name="time" id="weekly" checked>
+              <label for="weekly">سبوعي</label>
+            </div>
+            <div class="date d-flex aling-center mb-15">
+              <input type="radio" name="time" id="monthly" >
+              <label for="monthly">شهري</label>
+            </div>
+            <div class="servers d-flex aling-center text-c">
+
+              <input type="radio" name="servers" id="server-one">
+              <div class="server mb-15 rad-10 w-full">
+                <label class="d-block m-15" for="server-one">
+                  <i class="fa-solid fa-server d-block mb-10"></i>
+                  Googel
+                </label>
+              </div>
+  
+              <input type="radio" name="servers" id="server-tow" checked>
+              <div class="server mb-15 rad-10 w-full">
+                <label class="d-block m-15" for="server-tow">
+                  <i class="fa-solid fa-server d-block mb-10"></i>
+                  Amazon
+                </label>
+              </div>
+              
+              <input type="radio" name="servers" id="server-three">
+              <div class="server mb-15 rad-10 w-full">
+                <label class="d-block m-15" for="server-three">
+                  <i class="fa-solid fa-server d-block mb-10"></i>
+                  Hostinger
+                </label>
+              </div>
+            </div>
+          </div>
+       
+          <!-- box-setting -->
+        <!-- Project Table -->
+      </div>
+    </div>
+  </body>
+</html>
+
